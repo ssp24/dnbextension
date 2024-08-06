@@ -2,13 +2,4 @@
 mkdir -p ~/.jupyter/lab/user-settings/@jupyterlab/docmanager-extension/
 echo '{"defaultViewers": {"markdown": "Markdown Preview"}}' > ~/.jupyter/lab/user-settings/@jupyterlab/docmanager-extension/plugin.jupyterlab-settings
 
-# Create or modify the JupyterLab settings file to open welcome.md on startup
-cat <<EOT > $HOME/.jupyter/lab/user-settings/@jupyterlab/docmanager-extension/plugin.jupyterlab-settings
-{
-    "openWith": {
-        "defaultViewers": {
-            "markdown": "Markdown Preview"
-        }
-    }
-}
-EOT
+
